@@ -127,6 +127,8 @@ while run:
                         rel_time = True
                         start = timer()
                         canshoot = False
+                        player.fire()
+                        bulletsound.play()
 
         keys = key.get_pressed()
         if keys[K_r]:
