@@ -180,8 +180,6 @@ while run:
         bullets.update()
         bullets.draw(win)
 
-
-
         player.reset()
 
         if sprite.groupcollide(bullets, ufos, True, True):
@@ -217,10 +215,6 @@ while run:
             rel_time = False
             num_fire = 0
             canshoot = True
-
-            
-
-
         if sbito >= 10:
             
             num_fire = 0
@@ -272,9 +266,6 @@ while run:
             
             if sbito == 29:
                 hp.width = 0
-
-
-            
 
     display.update()
     clock.tick(fps)     
